@@ -1,0 +1,17 @@
+:root {
+  --white: #FFFFFF;
+  --green: #018762;
+  --green-100: #B0E0D3;
+  --dark: #263238;
+  --gray: #EBEBEB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body , button {
+  font: 400 1rem Nunito, sans-serif;
+}

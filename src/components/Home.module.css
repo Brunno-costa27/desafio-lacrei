@@ -1,0 +1,69 @@
+.content {
+    width: 100%;
+    padding: 4rem 4rem 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .content div {
+    max-width: 540px;
+  }
+  
+  .content div h2 {
+    font-size: 3rem;
+  }
+  
+  .content div .description {
+    padding-left: 0px;
+    border-left: none;
+  }
+  
+  .content div p {
+    line-height: 2rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    border-left: 5px solid rgba(1, 135, 98);
+    font-size: 1.5rem;
+    color: rgba(81, 81, 81);
+  }
+  
+  
+  .buttonsContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    max-width: 453px;
+  }
+  
+  .user, .vocational {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0,0,0,0.25) 0px 4px 4px;
+    transition: all 0.2s ease 0s;
+  }
+  
+  .buttonsContent .user {
+    background-color: rgba(1, 135, 98);
+    padding: 0.75rem 2rem;
+    color: var(--white);
+  }
+  
+  .buttonsContent .user:hover {
+    opacity: 0.7;
+  }
+  
+  .buttonsContent .vocational {
+    padding: 0.625rem 2.75rem;
+    color: var(--green);
+    background-color: var(--white);
+    border: 2px solid var(--green);
+  }
+  
+  .buttonsContent .vocational:hover {
+    opacity: 0.7;
+  }
+  

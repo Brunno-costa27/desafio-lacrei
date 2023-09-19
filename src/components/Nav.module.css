@@ -1,0 +1,30 @@
+.nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+}
+
+.nav > a {
+    color: rgba(1, 135, 98);
+}
+
+.nav > a:hover {
+    opacity: 0.7;
+}
+
+.nav nav {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+}
+
+.nav nav a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 1rem;
+    transition: all 0.2s ease 0s;
+}
+
+.nav nav a:hover {
+    opacity: 0.7;
+}
