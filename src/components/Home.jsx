@@ -1,11 +1,9 @@
-import { useState } from 'react';
 import style from './Home.module.css'
 import { Link } from 'react-router-dom'
 
 
-export function Home() {
+export function Home({activeLink, onLinkClick}) {
 
-    
     return (
         <div className={style.content}>
             <div>
@@ -16,11 +14,19 @@ export function Home() {
                     <Link 
                         className={style.user}
                         to="/pessoa-usuaria"
+                        onClick={() => onLinkClick('Pessoa Usuária')}
                     >
                         Pessoa Usuária
                     
                     </Link>
-                    <Link className={style.vocational} to="/profissional">Profissional</Link>
+                    <Link 
+                        className={style.vocational} 
+                        to="/profissional"
+                        onClick={() => onLinkClick('Profissional')}    
+                    >
+                        Profissional
+                        
+                    </Link>
                 </div>
             </div>
 

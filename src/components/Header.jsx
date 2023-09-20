@@ -6,7 +6,13 @@ export function Header({activeLink, onLinkClick}) {
 
     return (
         <header className={style.header}>
-            <Link to="/">Lacrei</Link>
+            <Link 
+                to="/"
+                onClick={() => onLinkClick("Home")}         
+            >
+                Lacrei
+            
+            </Link>
 
             <Nav
                 activeLinkNav={activeLink}
