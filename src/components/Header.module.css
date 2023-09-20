@@ -37,3 +37,24 @@
 .header nav a:hover {
     opacity: 0.7;
 }
+
+@media (max-width: 520px) {
+    .header {
+        padding: 0.5rem 1rem;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .header nav{
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .header nav a{
+       font-size: 0.875rem;
+    }
+}
+

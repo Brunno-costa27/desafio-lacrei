@@ -1,13 +1,15 @@
 import { Routes, Route} from 'react-router-dom'
-import { Home } from './pages/Home'
-import { History } from './pages/History'
+import { Home } from './components/Home'
+import { User } from './components/User'
+import { Vocational } from './components/Vocational'
 
 
 export function Router(){
     return (
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/history" element={<History/>}/>
+            <Route path="/pessoa-usuaria" element={<User/>}/>
+            <Route path="/profissional" element={<Vocational/>}/>
         </Routes>
     )
 }

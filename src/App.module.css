@@ -50,6 +50,14 @@
   gap: 2rem;
 }
 
+.footer div svg{
+    border: none;
+    font-size: 2rem;
+    color: rgb(1, 135, 98);
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
 .footer p {
   font-size: 0.75rem;
   color: rgba(81,81,81);
@@ -57,4 +65,30 @@
 
 .nav .active {
   font-weight: 700;
+}
+
+@media (max-width: 1040px) {
+  .footer {
+    margin: 0px 2rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer {
+    margin: 0px 1rem;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer nav{
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer nav a{
+    font-size: 0.875rem;
+  }
 }
